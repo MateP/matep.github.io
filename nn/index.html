@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NN</title>
+</head>
+<body>
+  <script>
+    var d = new Date();
+    d.setDate(d.getDate()-32);
+    var date = ('0'+d.getDate()).slice(-2)+'.'+('0'+(d.getMonth()+1)).slice(-2)+'.'+d.getFullYear();
+    window.location.replace("https://narodne-novine.nn.hr/search.aspx?upit=matematika&sortiraj=1&kategorija=3&ogvrsta=26&od="+date+"&rpp=200&qtype=3&pretraga=da");
+  </script>
+</body>
+</html>
