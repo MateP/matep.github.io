@@ -113,18 +113,30 @@ color: "#541F14",
                     <ul class="papers">
                         <div id="bibtex_display">
                             <div class="bibtex_template" style="display: none;">
-                                <li class="if author"><span class="author"></span>.
-                                    <span class="if title">
-                                        <a class="bibtexVar" href="papers/+FILE+" extra="FILE">
-                                            <span class="title"></span>.
-                                        </a>
+                                <li class="if author">
+                                    <span class="author"></span>.
+                                    <a class="bibtexVar" href="papers/+FILE+" extra="FILE">
+                                        <span class="title"></span>.
+                                    </a>
+                                    <span class="if journal">
+                                        <em><span class="journal"></span></em>
+                                        <span class="if volume">
+                                            <strong><span class="volume"></span></strong>
+                                            <span class="if number">
+                                                (<span class="number"></span>)
+                                            </span>
+                                        </span>
                                     </span>
-                                    <span class="if journal"><em><span class="journal"></span></em></span>
-                                    <span class="if volume">
-                                        <strong><span class="volume"></span></strong>
-                                        <span class="if number">(<span class="number"></span>)</span></span>
+                                    <span class="if booktitle">
+                                        <em><span class="booktitle"></span></em>
+                                        <span class="if volume">
+                                            <strong><span class="volume"></span></strong>
+                                            <span class="if number">
+                                                (<span class="number"></span>)
+                                            </span>
+                                        </span>
                                     </span>
-                                    <span class="if year">(<span class="year"></span>)
+                                    (<span class="year"></span>).
                                 </li>
                             </div>
                         </div>
@@ -139,6 +151,8 @@ color: "#541F14",
                     </ul>
                     <h4>Slides</h4>
                     <ul class="slides">
+                        <li><a href="slides/CROCOdays2024_predators_and_altruists.pdf">Combinatorial Settlement Model: Resistance
+                            to Predators and Altruists</a>, 5<sup>th</sup> Croatian Combinatorial Days, University of Zagreb Faculty of Civil Engineering, Croatia (2024).</li>
                         <li><a href="slides/oxford_zagreb2017.pdf">Periodicity in hyperspaces</a>, Topology research seminar, University of Zagreb, Croatia (2017).</li>
                         <li><a href="slides/oxford_zagreb2017.pdf">Periodicity in hyperspaces</a>, Analytic Topology research seminar, University of Oxford, UK (2017).</li>
                         <li><a href="slides/leicester2017.pdf">Shadowing is strong in tent maps</a>, Workshop on Topology in Dynamics, University of Leicester, UK (2017).</li>
