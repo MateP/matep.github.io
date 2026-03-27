@@ -588,12 +588,12 @@ DESCRIPTION:
 LOCATION:M1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mathematical Analysis 2 - 28. predavanje (PA01) [A-111]
+SUMMARY:Mathematical Analysis 2 - 28. predavanje (PA01) [A-201]
 DTSTART;TZID=Europe/Zagreb:20260518T140000
 DTEND;TZID=Europe/Zagreb:20260518T160000
 UID:c9f9166c5d7e50cf2cdbd27fb6bfa2b5@www.fer.unizg.hr
 DESCRIPTION:
-LOCATION:A-111
+LOCATION:A-201
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Matematička analiza 2 - 29. predavanje (PA04) [M1]
@@ -604,12 +604,12 @@ DESCRIPTION:
 LOCATION:M1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mathematical Analysis 2 - 29. predavanje (PA01) [A-111]
+SUMMARY:Mathematical Analysis 2 - 29. predavanje (PA01) [M6]
 DTSTART;TZID=Europe/Zagreb:20260520T140000
 DTEND;TZID=Europe/Zagreb:20260520T160000
 UID:d65fe9efa997939dd91272a18c76adc0@www.fer.unizg.hr
 DESCRIPTION:
-LOCATION:A-111
+LOCATION:M6
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Matematička analiza 2 - 30. predavanje (PA04) [M1]
